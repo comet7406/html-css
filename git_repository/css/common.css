@@ -7,6 +7,22 @@
     cursor: pointer;    
 }
 
+.btn-s-left,
+.btn-s-right {
+    padding: 3px 12px;
+    font-size: 12px;
+}
+
+.btn-s-left {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.btn-s-right {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
 .btn-success {
     background-color: #1A7F37;
     color: white;
@@ -18,8 +34,8 @@
 
 .text-input {
     outline: none;
-    border-radius: 6px;
     border: 1px solid #dbdbdb;
+    border-radius: 6px;
     padding: 5px 12px;
 }
 
