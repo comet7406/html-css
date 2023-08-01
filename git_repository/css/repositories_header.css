@@ -4,3 +4,45 @@
     background-color: rgb(246, 248, 250);
 }
 
+.app-header-globalBar {
+    padding: 16px 16px 8px 16px;
+}
+
+.app-header-globalBar-start {
+    display: flex;
+    align-items: center;
+    width: 654px;
+    height: 32px;
+}
+
+.list-bars {
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    background-color: none;
+}
+
+.user-bar {
+    font-size: 25px;
+}
+
+.user-bar .fa-solid {
+    margin-left: 8px;
+}
+
+.btn-t-left .fa-solid {
+    color:#656D76;
+}
+
+.list-style-none {
+    text-decoration: none;
+}
+
+.user_font-b {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+

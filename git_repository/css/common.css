@@ -7,6 +7,14 @@
     cursor: pointer;    
 }
 
+.list-bars {
+    padding: 0;
+}
+
+.btn-t-left {
+    width: 30px;
+}
+
 .btn-s-left,
 .btn-s-right {
     padding: 3px 12px;
