@@ -49,23 +49,19 @@ const loadBookList = () => {
     bookListTbody.innerHTML = bookList.map(book => {
         return `
             <li>
-                <span>${book.bookName}</span> <span>${book.author}</span> <span>${book.publisher}</span>
+                <span>${book.bookName}</span> | <span>${book.author}</span> | <span>${book.publisher}</span>
             </li>
         `
     }).join("");
 };
 
-// const loadBookList = () => {
-//     const bookListTbody = document.querySelector(".book-list");
+const addBookOnClickHandle = () => {
+    const book = {
+        bookName: document.querySelector(".book-name").value,
+        author: document.querySelector(".author").value,
+        publisher: document.querySelector(".publisher").value
+    }
 
-//     for(let i = 0; i < bookList.length; i++) {
-//         bookListTbody.innerHTML += `
-//             <tr>
-//                 <td>${bookList[i].bookName}</td>
-//                 <td>${bookList[i].author}</td>
-//                 <td>${bookList[i].publisher}</td>
-//             </tr>
-//         `;
-//     }
-
-
+    bookList.push(book);
+    loadBookList();
+};
